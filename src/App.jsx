@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
@@ -18,14 +18,16 @@ function App() {
     fetchCard();
   }, []);
 
-  useEffect(() => {
-    setUniqueCards(
-      cards.map((card) => ({
-        ...card,
-        keywords: [...new Set(card.keywords.split(" "))].join(" "),
-      }))
-    );
-  }, [cards]);
+  useMemo(
+    () =>
+      setUniqueCards(
+        cards.map((card) => ({
+          ...card,
+          keywords: [...new Set(card.keywords.split(" "))].join(" "),
+        }))
+      ),
+    [cards]
+  );
 
   return (
     <div>
