@@ -30,11 +30,11 @@ function App() {
   );
 
   return (
-    <div>
+    <>
       <Header />
       <Main cards={uniqueCards} setFilter={setFilter} filter={filter} />
       <Footer />
-    </div>
+    </>
   );
 }
 
