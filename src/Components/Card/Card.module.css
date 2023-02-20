@@ -1,0 +1,34 @@
+.item {
+  padding: 24px;
+  height: 184px;
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.symbol {
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 18px;
+}
+.title {
+  margin-bottom: 12px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.keywords {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #3f444a;
+}
