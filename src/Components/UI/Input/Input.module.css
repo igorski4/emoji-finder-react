@@ -6,9 +6,6 @@
   padding-left: 32px;
   transform: translate(-50%, -50%);
 
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 24px;
   line-height: 21px;
 
@@ -18,4 +15,10 @@
 .input::-moz-placeholder,
 .input:-ms-input-placeholder {
   color: #abb5be;
+}
+
+@media (max-width: 902px) {
+  .input {
+    width: 90%;
+  }
 }

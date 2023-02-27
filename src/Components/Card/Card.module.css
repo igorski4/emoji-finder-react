@@ -14,8 +14,6 @@
 }
 .title {
   margin-bottom: 12px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 28px;
@@ -24,9 +22,6 @@
   color: #000000;
 }
 .keywords {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   text-align: center;

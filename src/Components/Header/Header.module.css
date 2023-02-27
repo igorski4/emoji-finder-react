@@ -7,8 +7,6 @@
 .title {
   margin-bottom: 4px;
 
-  font-family: "Inter", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 72px;
   line-height: 87px;
@@ -17,9 +15,6 @@
 }
 
 .subtitle {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 21px;
   line-height: 36px;
   color: #cff4fc;

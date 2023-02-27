@@ -1,5 +1,4 @@
 .main {
-  background-color: #edeef3;
   flex-grow: 1;
 }
 
@@ -12,14 +11,4 @@
   justify-content: center;
   margin: 0 auto;
   gap: 22px 19px;
-}
-
-.text {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 21px;
-  line-height: 36px;
-  color: #cff4fc;
-  text-align: center;
 }

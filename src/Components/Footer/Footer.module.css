@@ -2,12 +2,9 @@
   padding-top: 18px;
   padding-bottom: 19px;
   border-top: 1px solid #ced4da;
-  background: #edeef3;
 }
+
 .text {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   text-align: center;

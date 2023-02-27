@@ -1,0 +1,42 @@
+.page {
+  display: inline-block;
+  padding: 12px 14px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #055160;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  cursor: pointer;
+}
+
+.page:hover {
+  transform: translateY(-3px);
+}
+
+.page:active {
+  transform: translateY(-3px);
+  background: rgba(5, 81, 96, 0.2);
+}
+
+.page_active {
+  color: #ffffff;
+  background: #055160;
+  border: 1px solid #055160;
+}
+
+.page_active:active {
+  background: rgba(5, 81, 96, 0.8);
+}
+
+.page_disabled {
+  color: #abb5be;
+  cursor: default;
+}
+
+.page_disabled:hover {
+  transform: translate(0);
+}
+
+.page_disabled:active {
+  background-color: #ffffff;
+}

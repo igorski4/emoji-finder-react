@@ -3,3 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background: #edeef3;
+}
+
+.container {
+  width: 986px;
+  margin: 0 auto;
+}
